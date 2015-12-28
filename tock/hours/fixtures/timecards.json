@@ -1,31 +1,42 @@
 [
-  {
-    "model": "hours.reportingperiod",
-    "fields": {
-      "start_date": "2015-06-01",
-      "end_date": "2015-06-08"
-    },
-    "pk": 1
-  },
-  {
-    "model": "hours.timecard",
-    "fields": {
-      "user": 1,
-      "reporting_period": 1,
-      "created": "2015-06-08T12:00:00.000Z",
-      "modified": "2015-06-08T12:00:00.000Z"
-    },
-    "pk": 1
-  },
-  {
-    "model": "hours.timecardobject",
-    "fields": {
-      "timecard": 1,
-      "project": 1,
-      "hours_spent": 20,
-      "created": "2015-06-08T12:00:00.000Z",
-      "modified": "2015-06-08T12:00:00.000Z"
-    },
-    "pk": 1
-  }
+{
+  "project_name":"Platform as a Service",
+  "project_id":22,
+  "employee":"mossadeq.zia",
+  "start_date":"12/20/15",
+  "end_date":"12/26/15",
+  "hours_spent":2.25
+},
+{
+  "project_name":"Out Of Office",
+  "project_id":1,
+  "employee":"russell.unger",
+  "start_date":"12/20/15",
+  "end_date":"12/26/15",
+  "hours_spent":12
+},
+{
+  "project_name":"GAO Review",
+  "project_id":132,
+  "employee":"kathryn.edelman",
+  "start_date":"12/20/15",
+  "end_date":"12/26/15",
+  "hours_spent":1
+},
+{
+  "project_name":"Ops / Admin",
+  "project_id":3,
+  "employee":"jennifer.moran",
+  "start_date":"12/20/15",
+  "end_date":"12/26/15",
+  "hours_spent":1
+},
+{
+  "project_name":"General",
+  "project_id":2,
+  "employee":"moncef.belyamani",
+  "start_date":"12/20/15",
+  "end_date":"12/26/15",
+  "hours_spent":2
+}
 ]
